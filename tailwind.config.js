@@ -7,7 +7,8 @@ export default {
         rubik: ['Rubik Mono One', 'monospace'],
       },
       colors: {
-        dark: '#1D2B53',
+        // dark: '#1D2B53',
+        dark: '#35374B',
         purple: '#7E2553',
         rose: '#FF004D',
         yellow: '#FAEF5D',
@@ -15,4 +16,9 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /(bg|text|border)-(dark|purple|rose|yellow)/,
+    },
+  ],
 };
