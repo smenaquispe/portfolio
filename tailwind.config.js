@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik Mono One', 'monospace'],
+        fira: ['Fira Mono', 'monospace'],
       },
       colors: {
         // dark: '#1D2B53',
