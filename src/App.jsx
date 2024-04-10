@@ -4,7 +4,7 @@ import { Experiece } from './sections/experience/Experience';
 function App() {
   return (
     <>
-      <main className="h-[100vh] w-full">
+      <main className="w-full">
         <Header />
         <Experiece />
       </main>
